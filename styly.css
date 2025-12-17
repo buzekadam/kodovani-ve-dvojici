@@ -58,7 +58,7 @@ nav {
 
 .nav-links li {
     display: inline-block;
-    margin-left: 100px;
+    margin-inline: 50px;
 }
 
 .nav-links a {
