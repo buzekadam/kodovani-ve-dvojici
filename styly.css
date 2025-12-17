@@ -14,6 +14,7 @@ img {
     width: 100%;
     display: block;
     object-fit: cover;
+    margin: 80px;
 }
 
 .container {
@@ -26,7 +27,6 @@ img {
 h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    text-align: center;
 }
 
 .hero {
