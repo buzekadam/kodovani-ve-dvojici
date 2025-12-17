@@ -4,131 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Travel Assistant</title>
+    <link rel="stylesheet" href="styly.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
 
-<header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">What We Do</a></li>
-            <li><a href="#trips">Our Trips</a></li>
-            <li><a href="#contact">Where to go</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="hero">
+        <nav>
+            <div class="logo"></div> 
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">What We Do</a></li>
+                <li><a href="#trips">Our Trips</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        
+        <div class="hero-content">
+            <h1>Your<br>Travel<br>Assistant</h1>
+        </div>
+    </header>
 
-<main>
-
-    <!-- HERO -->
-    <section id="hero">
-        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Camping view">
-        <h1>Your Travel Assistant</h1>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about">
-        <div>
+    <section id="about" class="about-us container">
+        <div class="about-text">
             <h2>About Us</h2>
-            <p>
-                Leigh McAdams is a Calgary-based writer, photographer and social media
-                enthusiast with over 48,000 followers. She is the Hiking Editor of
-                Outdoor Adventure Canada and a frequent contributor to travel magazines.
-            </p>
+            <p>Leigh McAdam is a Calgary-based writer, photographer and social media enthusiast with over 48,000 followers. Her blog: HikeBikeTravel is frequently cited as one of the top travel and outdoor adventure blogs in Canada.</p>
+            <p>She shares her enthusiasm for the outdoors as a brand ambassador for Sporting Life. Leigh is the author of Discover Canada: 100 Inspiring Outdoor Adventures.</p>
         </div>
-        <div>
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Nature">
+        <div class="about-image">
+            <img src="https://placehold.co/600x400/555/FFF?text=Hory+Img" alt="About Us Image">
         </div>
     </section>
 
-    <!-- WHAT WE DO -->
-    <section id="services">
-        <h2>What We Do</h2>
-        <p>
-            Opportunities for challenging hikes and pleasant strolls are scattered
-            all over this planet. We help you find them.
-        </p>
-
-        <ul>
-            <li>
-                <img src="" alt="">
-                <p>Hiking</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Cycling</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Surfing</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Car trips</p>
-            </li>
-        </ul>
-    </section>
-
-    <!-- OUR TRIPS -->
-    <section id="trips">
-        <h2>Our Trips</h2>
-        <div>
-            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" alt="">
-            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7" alt="">
-            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="">
-            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="">
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="">
+    <section id="services" class="what-we-do">
+        <div class="container">
+            <h2>What We Do</h2>
+            <p class="intro-text">Opportunities for challenging hikes and pleasant strolls are scattered all over this planet, you just need to know where to find them. We do.</p>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fa-solid fa-person-hiking"></i> <h3>Hiking</h3>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-bicycle"></i>
+                    <h3>Cycling</h3>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-water"></i>
+                    <h3>Surfing</h3>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-car"></i>
+                    <h3>Car trips</h3>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact">
-        <h2>Where do you want to go?</h2>
-        <p>
-            You'll find 21 detailed adventure guides, over a hundred travel tips
-            and reviews.
-        </p>
-        <button>Contact us</button>
+    <section id="trips" class="our-trips container">
+        <div class="gallery-grid">
+            <img src="https://placehold.co/400x400/222/FFF?text=Trip+1" alt="Trip 1">
+            <img src="https://placehold.co/400x400/333/FFF?text=Trip+2" alt="Trip 2">
+            <img src="https://placehold.co/400x400/444/FFF?text=Trip+3" alt="Trip 3">
+            
+            <img src="https://placehold.co/400x400/555/FFF?text=Trip+4" alt="Trip 4">
+            <div class="gallery-text-box">
+                <h2>Our<br>trips</h2>
+            </div>
+            <img src="https://placehold.co/400x400/666/FFF?text=Trip+5" alt="Trip 5">
+            
+            <img src="https://placehold.co/400x400/777/FFF?text=Trip+6" alt="Trip 6">
+            <img src="https://placehold.co/400x400/888/FFF?text=Trip+7" alt="Trip 7">
+            <img src="https://placehold.co/400x400/999/FFF?text=Trip+8" alt="Trip 8">
+        </div>
     </section>
 
-    <!-- REVIEWS -->
-    <section id="reviews">
+    <section class="cta-section">
+        <div class="container">
+            <h2>Where do you want to go?</h2>
+            <p>You'll find 21 detailed adventure guides, over a hundred practical travel tips, book reviews on anything outdoors related.</p>
+            <a href="#" class="btn">CONTACT US</a>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews container">
         <h2>Reviews</h2>
-
-        <article>
-            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Reviewer">
-            <p>
-                She has booked two major European trips for us and every aspect
-                has met and exceeded expectations.
-            </p>
-            <strong>Bertie Norton</strong>
-        </article>
-
-        <article>
-            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Reviewer">
-            <p>
-                Leigh McAdams has been making my travel arrangements for about 20 years.
-            </p>
-            <strong>Frank Kinney</strong>
-        </article>
+        <p class="reviews-intro">Our amazing clients are the reason we exist, and their reactions to our customized travel experiences keep us smiling.</p>
+        
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="avatar">
+                    <img src="https://placehold.co/100x100/333/FFF?text=A" alt="Avatar">
+                </div>
+                <p>"She has booked two major European trips for us in the past year and every aspect has met our expectations."</p>
+                <h4>Bertie Norton</h4>
+            </div>
+            <div class="review-card">
+                <div class="avatar">
+                    <img src="https://placehold.co/100x100/333/FFF?text=B" alt="Avatar">
+                </div>
+                <p>"Leigh McAdam has been making my travel arrangements for about 20 years and there is no one else I would trust."</p>
+                <h4>Frank Kinney</h4>
+            </div>
+        </div>
     </section>
 
-    <!-- GALLERY -->
-    <section id="gallery">
-        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="">
-        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="">
-        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="">
-    </section>
-
-</main>
-
-<footer>
-    <p>© 2025 Your Travel Assistant. All rights reserved.</p>
-</footer>
+    <footer class="footer-images">
+        <img src="https://placehold.co/600x400/111/FFF?text=Footer+1" alt="Footer 1">
+        <img src="https://placehold.co/600x400/222/FFF?text=Footer+2" alt="Footer 2">
+        <img src="https://placehold.co/600x400/333/FFF?text=Footer+3" alt="Footer 3">
+        <img src="https://placehold.co/600x400/444/FFF?text=Footer+4" alt="Footer 4">
+    </footer>
+    
+    <div class="copyright">
+        &copy; 2022-Your Travel Assistant. All Rights Reserved
+    </div>
 
 </body>
 </html>
