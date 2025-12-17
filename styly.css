@@ -30,7 +30,7 @@ h2 {
 }
 
 .hero {
-    background-image: url('https://placehold.co/1920x1080/orange/white?text=Stan+Background'); 
+    background-image: url('bg1.jpg'); 
     background-size: cover;
     background-position: center;
     height: 60vh;
