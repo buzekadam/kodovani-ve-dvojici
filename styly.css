@@ -30,10 +30,10 @@ h2 {
 }
 
 .hero {
-    background-image: url('obrazky/scott-goodwill.jpg'); 
+    background-image: url('obrazky/scott-goodwill.jpg');
     background-size: cover;
     background-position: center;
-    height: 800px;
+    min-height: 100vh;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -41,12 +41,14 @@ h2 {
     color: white;
 }
 
+
 nav {
     position: absolute;
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
     padding: 1rem;
     background-color: #33292a;
 }
@@ -76,15 +78,14 @@ nav {
 }
 
 .hero-content {
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: right;
 }
 
 .hero-content h1 {
-    font-size: 80px;
-    line-height: 1.3;
-    margin: 30px;
-    margin-right: 300px;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin: 0;
 }
 
 .about-us {
@@ -137,22 +138,24 @@ nav {
     background-color: #6d4c41;
     color: white;
     padding: 4rem 0;
+    text-align: left;
 }
 
 .cta-section p {
     max-width: 600px;
-    margin: 1rem auto;
+    margin: 1rem 0;
 }
 
 .cta-content {
     display: flex;
-    gap: 4rem;
-    align-items: flex-start;
+    gap: 2rem;
+    flex-direction: column;
 }
 
 .cta-left h2 {
-    font-size: 2.5rem;
-    max-width: 300px;
+    font-size: 2rem;
+    max-width: 100%;
+    line-height: 1.2;
 }
 
 .cta-right {
@@ -230,15 +233,53 @@ nav {
     .footer-images {
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    .services-grid {
+
+    .about-us {
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        align-items: center;
+    }
+    .about-text, .about-image {
+        flex: 1;
+    }
+    .hero-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .services-grid {
+        flex-wrap: nowrap;
+    }
+    .service-item {
+        width: auto;
+        flex: 1;
+    }
+
+    .about-image img {
+        width: 400px;
+        height: 600px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .cta-content {
+        flex-direction: row;
+        gap: 4rem;
+        align-items: flex-start;
+    }
+
+    .cta-left h2 {
+        font-size: 2.5rem;
+        max-width: 300px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-images {
+        grid-template-columns: repeat(2, 1fr);
     }
     
-    .service-item {
-        width: 45%;
+    .reviews-grid {
+        flex-direction: row;
     }
 }
 
@@ -254,6 +295,9 @@ nav {
     .about-text, .about-image {
         flex: 1;
     }
+    .hero-content h1 {
+        font-size: 4.5rem;
+    }
 
     .services-grid {
         flex-wrap: nowrap;
@@ -261,6 +305,23 @@ nav {
     .service-item {
         width: auto;
         flex: 1;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .cta-content {
+        flex-direction: row;
+        gap: 4rem;
+        align-items: flex-start;
+    }
+
+    .cta-left h2 {
+        font-size: 2.5rem;
+        max-width: 300px;
     }
 
     .gallery-grid {
