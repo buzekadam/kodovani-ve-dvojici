@@ -224,6 +224,10 @@ nav {
     font-size: 0.8rem;
 }
 
+.copyright a{
+    color: coral;
+}
+
 
 @media (min-width: 600px) {
     .gallery-grid {
