@@ -47,7 +47,7 @@ nav {
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
     padding: 1rem;
     background-color: #33292a;
@@ -179,6 +179,8 @@ nav {
 
 .reviews {
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -186,7 +188,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .reviews-intro {
